@@ -30,8 +30,3 @@ services:
        # password is required, other variables are optional
        POSTGRES_PASSWORD: psqlexample
     container_name: db_psql
-    volumes:
-      - database:/var/lib/postgresql/data
-
-volumes:
-  database:
